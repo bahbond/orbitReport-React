@@ -16,10 +16,11 @@ function App() {
   return (
     <div>
       <Banner />
-      <Buttons />
+      <Buttons 
         filterByType={filterByType}
         setSat={setSat}
         displaySats={displaySats}
+        />
       <Table sat={sat} />
     </div>
   );
